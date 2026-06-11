@@ -1,0 +1,15 @@
+# Secrets & crypto artifacts
+*.key
+*.enc
+*.gz
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Project temp
+uploads/
+temp_download.*
+received_file*
