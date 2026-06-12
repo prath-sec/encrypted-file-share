@@ -1,15 +1,23 @@
-# Secrets & crypto artifacts
+# Secrets & crypto artifacts — NEVER commit these
 *.key
 *.enc
 *.gz
+*.pem
 .env
+
+# Server storage & temp files
+mini5_transfer/uploads/
+temp_download.*
+received_file*
+recovered.*
+got.*
 
 # Python
 __pycache__/
 *.pyc
+*.pyo
 venv/
+.pytest_cache/
 
-# Project temp
-uploads/
-temp_download.*
-received_file*
+# OS
+.DS_Store
