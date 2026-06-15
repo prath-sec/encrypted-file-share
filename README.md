@@ -139,7 +139,3 @@ python -m pytest -v
 ```
 
 Each module has its own test file; key coverage includes the encrypt/decrypt round-trip, tamper detection (modifying the ciphertext must raise `InvalidTag`), wrong-key rejection, path-traversal rejection on the server, and the bounded-decompress guard refusing a decompression bomb.
-
-## License
-
-MIT (or your choice).
